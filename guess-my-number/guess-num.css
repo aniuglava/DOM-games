@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color:pink;
+    color:white;
+    text-align: center;
+    padding: 50px;
+    font-family: "Coral Pixels",serif;
+
+}
+h1{
+    font-family:"Coral Pixels", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.btn-again,.btn-check{
+    width: 120px;
+    height:40px;
+    background-color: white;
+    color:black;
+    border:none;
+    border-radius: 6px;
+}
+.btn-again{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.btn-again:hover,.btn-check:hover{
+    background-color: black;
+    color:white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#guess{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border:none;
+    border-radius:6px;
+}
+.score-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    gap:15px;
+    color:black;
+}
+.number-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    background-color:black;
+    margin: auto;
+    border: dashed white;
+}
